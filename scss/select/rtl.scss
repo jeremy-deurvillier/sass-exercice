@@ -1,0 +1,101 @@
+.chzn-rtl{
+    text-align: right;
+
+    .chzn-single{
+        padding: 0 8px 0 0;
+        overflow: visible;
+
+        span{
+            margin-left: 26px;
+            margin-right: 0;
+            direction: rtl;
+        }
+
+        div{
+            left: 3px;
+            right: auto;
+        }
+
+        abbr {
+            left: 26px;
+            right: auto;
+        }
+    }
+
+    .chzn-choices{
+        .search-field{
+            input{
+                direction: rtl;
+            }
+        }
+
+        li{
+            float: right;
+        }
+
+        .search-choice{
+            padding: 3px 5px 3px 19px;
+            margin: 3px 5px 3px 0;
+
+            .search-choice-close{
+                left: 4px;
+                right: auto;
+            }
+        }
+    }
+
+    .chzn-search {
+        left: 9999px;
+
+        input {
+            background: #fff url('img/chosen-sprite.png') no-repeat -30px -20px;
+            background: url('img/chosen-sprite.png') no-repeat -30px -20px, -webkit-gradient(linear, 0 0, 0 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+            background: url('img/chosen-sprite.png') no-repeat -30px -20px, -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+            background: url('img/chosen-sprite.png') no-repeat -30px -20px, -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+            background: url('img/chosen-sprite.png') no-repeat -30px -20px, -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+            background: url('img/chosen-sprite.png') no-repeat -30px -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
+            padding: 4px 5px 4px 20px;
+            direction: rtl;
+        }
+    }
+
+    .chzn-drop { left: 9999px; }
+
+    .chzn-rtl.chzn-container-single{
+        .chzn-results {margin: 0 0 4px 4px; padding: 0 4px 0 0; }
+    }
+
+    .chzn-results{
+        .group-option { padding-left: 0; padding-right: 15px; }
+    }
+}
+
+.chzn-rtl.chzn-with-drop{
+    .chzn-search { left: 0px; }
+}
+
+.chzn-rtl.chzn-container-active.chzn-with-drop{
+    .chzn-single{
+        div { border-right: none; }
+    }
+}
+
+.chzn-container-single.chzn-rtl{
+    .chzn-single{
+        div{
+            b {
+                background-position: 6px 2px;
+            }
+        }
+    }
+}
+
+.chzn-container-single.chzn-rtl.chzn-with-drop{
+    .chzn-single{
+        div{
+            b {
+                background-position: -12px 2px;
+            }
+        }
+    }
+}

@@ -3,9 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>Sass - Exercice pratique</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/select.css">
-
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/jquery-1.10.0.min.js"></script>
+  <script src="js/chosen.jquery.js"></script>
+  <script>
+    $('#languages').chosen();
+  </script>
 </head>
 <body>
   <h1>Sassify Me!</h1>
@@ -28,10 +31,5 @@
       <option value="objective-c">Objective C</option>
     </optgroup>
   </select>
-  <script src="js/jquery-1.10.0.min.js"></script>
-  <script src="js/chosen.jquery.js"></script>
-  <script>
-    $('#languages').chosen();
-  </script>
 </body>
 </html>

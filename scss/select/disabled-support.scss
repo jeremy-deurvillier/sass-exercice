@@ -1,0 +1,16 @@
+.chzn-disabled {
+    cursor: default;
+    opacity:0.5 !important;
+
+    .chzn-single {
+        cursor: default;
+    }
+
+    .chzn-choices{
+        .search-choice{
+            .search-choice-close {
+                cursor: default;
+            }
+        }
+    }
+}
